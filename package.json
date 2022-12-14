@@ -66,7 +66,8 @@
     "ts-loader": "^7.0.1",
     "typescript": "^3.8.3",
     "uuid": "^8.3.2",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@prettier/plugin-ruby": "^1.5.5",
@@ -103,11 +104,14 @@
     "webpack-bundle-analyzer": "bin/webpack --profile --json > webpacker-stats.json && node_modules/.bin/webpack-bundle-analyzer webpacker-stats.json public/packs",
     "cypress:open": "yarn cypress open --project ./spec",
     "cypress:run": "yarn cypress run --project ./spec",
-    "db:seed": "bundle exec rails db:seed"
+    "db:seed": "bundle exec rails db:seed",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "husky": {
     "hooks": {
       "pre-push": "yarn lint"
     }
-  }
+  },
+  "snyk": true
 }

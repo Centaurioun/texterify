@@ -1235,6 +1235,11 @@
   dependencies:
     "@sentry/cli" "^1.58.0"
 
+"@snyk/protect@^1.1071.0":
+  version "1.1071.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.1071.0.tgz#4d7980f20024e36d49ddb5dc20523ade5017abbb"
+  integrity sha512-/xoAhWLeMBEVW3mHufGPx6WrhJBy98qmJ+0jhTwdz3qerr93kk4e4dj3N6ZGI9zeBQ3+E1tPxKcC74CcmzQdhg==
+
 "@stripe/stripe-js@^1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@stripe/stripe-js/-/stripe-js-1.9.0.tgz#a4a166b5de88903573c9a7fd04f39610648f4769"
