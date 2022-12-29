@@ -1,4 +1,4 @@
-FROM ruby:2.7.1 AS production
+FROM ruby:2.7.6 AS production
 SHELL ["/bin/bash", "-c"]
 
 EXPOSE 3000
