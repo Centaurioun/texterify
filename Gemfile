@@ -38,7 +38,7 @@ group :development, :test do
     # gem 'capybara'
     # gem 'selenium-webdriver'
 
-    gem 'cypress-on-rails', '~> 1.0'
+    gem 'cypress-on-rails', '~> 1.13', '>= 1.13.1'
     gem 'database_cleaner'
     gem 'dotenv-rails'
 
